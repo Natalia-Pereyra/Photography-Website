@@ -27,6 +27,7 @@ nav {
 }
 .hero {
   background-image: url(/Images/_MG_5577.jpg);
+  background-attachment: fixed;
   height: 100vh;
   background-size: cover;
   display: block;
@@ -49,6 +50,13 @@ h2 {
   margin-bottom: 50px;
   font-family: var(--font-body);
   font-weight: normal;
+}
+h3 {
+  font-family: var(--font-body);
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 25px;
 }
 .button {
   background-color: white;
@@ -87,4 +95,18 @@ i {
 nav li.active a {
   text-decoration: underline;
   font-weight: bolder;
+}
+.small-gallery {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  text-align: center;
+}
+img {
+  width: 300px;
+  height: auto;
+}
+h6 {
+  text-align: center;
+  font-size: 35px;
 }

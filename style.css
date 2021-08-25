@@ -1,0 +1,90 @@
+:root {
+  --font-heading: "Orbitron", sans-serif;
+  --font-body: "Montserrat", sans-serif;
+  --main-color: rgb(49, 49, 49);
+}
+body {
+  margin: 0px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-end;
+}
+li {
+  margin: 10px 10px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  background-color: var(--main-color);
+  margin-top: -15px;
+  padding: 5px 0 2px 0;
+  font-family: var(--font-body);
+}
+.hero {
+  background-image: url(/Images/_MG_5577.jpg);
+  height: 100vh;
+  background-size: cover;
+  display: block;
+  text-align: center;
+  border: 1px solid var(--main-color);
+}
+h1 {
+  font-size: 96px;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: var(--font-heading);
+}
+h2 {
+  text-align: center;
+  color: white;
+  margin-top: -150px;
+  letter-spacing: 18px;
+  margin-bottom: 50px;
+  font-family: var(--font-body);
+  font-weight: normal;
+}
+.button {
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+  color: var(--main-color);
+  padding: 10px;
+  width: 100px;
+  font-family: var(--font-body);
+  text-decoration: none;
+}
+.button:hover {
+  background-color: white;
+  opacity: 1;
+}
+#social-icons {
+  background-color: var(--main-color);
+  font-size: 30px;
+  display: block;
+  text-align: center;
+}
+i {
+  margin: 30px;
+  color: white;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.contact-link {
+  margin: 20px;
+}
+.portfolio-link {
+  margin: 20px;
+}
+nav li.active a {
+  text-decoration: underline;
+  font-weight: bolder;
+}

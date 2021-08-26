@@ -11,6 +11,8 @@ ul {
   flex-direction: row;
   list-style: none;
   justify-content: flex-end;
+  padding-top: 20px;
+  margin: 0px;
 }
 li {
   margin: 10px 10px;
@@ -33,6 +35,7 @@ nav {
   display: block;
   text-align: center;
   border: 1px solid var(--main-color);
+  padding-top: 50px;
 }
 h1 {
   font-size: 96px;
@@ -45,7 +48,7 @@ h1 {
 h2 {
   text-align: center;
   color: white;
-  margin-top: -150px;
+  margin-top: -100px;
   letter-spacing: 18px;
   margin-bottom: 50px;
   font-family: var(--font-body);
@@ -71,6 +74,7 @@ h3 {
 .button:hover {
   background-color: white;
   opacity: 1;
+  color: var(--main-color);
 }
 #social-icons {
   background-color: var(--main-color);
@@ -111,6 +115,7 @@ h6 {
   font-size: 20px;
   color: var(--main-color);
   font-family: var(--font-body);
+  padding: 20px;
 }
 
 a {
@@ -118,6 +123,11 @@ a {
   font-family: var(--font-body);
   text-decoration: none;
   font-weight: bold;
+}
+a:hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
 }
 #quote {
   background-color: white;
@@ -134,11 +144,43 @@ a {
   padding-top: 10px;
 }
 .album {
-  margin: 20px;
+  margin: 20px 20px;
 }
-.bw-gallery {
+.container {
   display: flex;
-  justify-content: space-around;
-  column-count: 3;
   flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 20px;
+  margin-bottom: 20px;
+}
+.portfolio-header {
+  color: var(--main-color);
+  margin: 0 auto;
+  font-size: 25px;
+  padding: 50px;
+  font-family: var(--font-body);
+}
+h5 {
+  padding-top: 20px;
+}
+.email-link {
+  color: var(--main-color);
+}
+.contact {
+  background-image: url(/Images/para\ juli.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.contact-h3 {
+  margin-top: 100px;
+  padding-top: 50px;
+}
+.box {
+  display: block;
+  text-align: center;
+  padding: 50px;
+  line-height: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 30px;
 }

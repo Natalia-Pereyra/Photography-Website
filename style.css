@@ -98,8 +98,8 @@ nav li.active a {
 }
 .small-gallery {
   display: flex;
-  justify-content: space-around;
-  margin-top: 40px;
+  justify-content: center;
+  margin-top: 10px;
   text-align: center;
 }
 img {
@@ -108,5 +108,37 @@ img {
 }
 h6 {
   text-align: center;
-  font-size: 35px;
+  font-size: 20px;
+  color: var(--main-color);
+  font-family: var(--font-body);
+}
+
+a {
+  color: white;
+  font-family: var(--font-body);
+  text-decoration: none;
+  font-weight: bold;
+}
+#quote {
+  background-color: white;
+
+  padding: 0 20px;
+}
+.gallery {
+  background-color: var(--main-color);
+  display: block;
+  text-align: center;
+}
+.my-work {
+  color: white;
+  padding-top: 10px;
+}
+.album {
+  margin: 20px;
+}
+.bw-gallery {
+  display: flex;
+  justify-content: space-around;
+  column-count: 3;
+  flex-wrap: wrap;
 }
